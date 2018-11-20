@@ -1,0 +1,26 @@
+# eclipse
+bin
+eclipse
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+
+run
+/Forge-CREDITS.txt
+/Forge-README.txt
+/Forge-LICENSE.txt
+/LICENSE-Paulscode IBXM Library.txt
+/LICENSE-Paulscode SoundSystem CodecIBXM.txt
+/forge-1.12.2-14.23.5.2768-changelog.txt
