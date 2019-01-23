@@ -1,6 +1,6 @@
 [
 {
-  "modid": "experimental",
+  "modid": "soneex",
   "name": "Experimental Mod",
   "description": "exploring how to implement.",
   "version": "${version}",

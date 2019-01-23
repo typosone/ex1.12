@@ -1,5 +1,7 @@
-package jp.typosone.mc.mod.experimental
+package jp.typosone.mc.mod.soneex
 
+import jp.typosone.mc.mod.soneex.ExperimentalMain.LOG
+import jp.typosone.mc.mod.soneex.ExperimentalMain.MOD_ID
 import net.minecraft.block.Block
 import net.minecraft.item.Item
 import net.minecraft.item.ItemBlock
@@ -16,3 +18,7 @@ fun Block.createBlockItem(): Item {
 
 val String.exResourceLocation: ResourceLocation
     get() = ResourceLocation(MOD_ID, this)
+
+fun info(value: Any) {
+    LOG.info(value)
+}
